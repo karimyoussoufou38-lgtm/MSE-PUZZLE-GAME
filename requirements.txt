@@ -1,2 +1,26 @@
-pyperclip
-colorama
+# MSE v29.0 - Requirements
+# Multiple Substitution Encryption System
+
+# Core dependencies
+pyperclip>=1.8.2        # Clipboard operations
+colorama>=0.4.6         # Colored terminal output
+
+# Optional dependencies for development
+# Uncomment these lines if you want to install dev dependencies
+# pytest>=7.4.0         # Testing framework
+# pytest-cov>=4.1.0     # Code coverage
+# flake8>=6.0.0         # Linting
+# black>=23.7.0         # Code formatting
+# mypy>=1.4.1           # Type checking
+# sphinx>=7.0.0         # Documentation generation
+
+# Optional performance dependencies
+# Uncomment for enhanced performance
+# numpy>=1.24.0         # Fast array operations
+# numba>=0.57.0         # JIT compilation for speed
+# cython>=3.0.0         # C-extensions for performance
+
+# Optional security dependencies
+# Uncomment for additional security features
+# cryptography>=41.0.0  # Additional cryptographic functions
+# pycryptodome>=3.18.0  # Crypto primitives
